@@ -1,0 +1,170 @@
+body {
+	font-size:.9em;
+	background: #eaebeb;
+	font-family:"Lucida Grande",verdana,Arial,Helvetica,sans-serif;
+}
+
+a {
+	color:#990000;
+}
+
+p {
+	font-size:100%;
+	color:#222;
+}
+
+h2 {
+	font-size:120%;
+	font-weight:bold;
+	color:#990000;
+}
+h1 {
+	font-size:140%;
+	font-weight:bold;
+	color:#111;
+}
+
+.container {
+	background:#fff;
+	width:1005px;
+}
+
+.small {
+	font-size:75%;
+	margin-bottom:.5em;
+	line-height:130%;
+}
+
+.contact {
+	text-align:right;
+}
+
+.contact p {
+	font-size:75%;
+}
+
+.footermessage p  {
+	margin-top:35px;
+	margin-bottom:20px;
+	font-size:75%;
+}
+#header {
+	margin:15px 0px 15px 0px;
+}
+
+.logo {
+	float:left;
+	width:200px;
+}
+
+.secondarylinks {
+	float:right;
+	padding-right:30px;
+	font-size:85%;
+}
+
+.secondarylinks ul {
+	display:inline;
+}
+
+.secondarylinks ul li {
+	padding: 0px 5px;
+	
+	list-style: none;
+	display:inline;
+
+}
+
+.secondarylinks li + li {
+	border-left: 1px solid #aaa;
+	padding-left:10px;
+}
+
+
+#navigation {
+	font-size:90%;
+	clear:both;
+}
+
+#navigation ul {
+	display:inline;
+	margin-left:0px;
+}
+
+#navigation ul li {
+	margin-left: 0;
+	padding-right: 10px;
+	list-style: none;
+	display:inline;
+}
+	
+#navigation li + li {
+	border-left: 1px solid #ddd;
+	padding: 0px 10px;
+}	
+
+#sidebar a {
+	font-size:85%;
+}
+
+/* footer is a class because there are two grid divs in the footer an both need pushed down */
+.footer {
+	margin-top:30px;
+}
+
+div.teaser {
+	font-size: .9em;
+	border: 1px solid #EEE;
+	padding: 10px;
+	margin: 10px;
+}
+div.sticky {
+	background: #EEE;
+	border: 1px solid #ddd;
+}
+div.sticky h2 {
+	display: none;
+}
+
+input.error {
+	padding: 0;
+	margin: 0;
+}
+
+.notice {
+	padding: 3px;
+	border: 1px solid #900;
+	color: #900;
+	background-color: #FEE;
+}
+
+/* For a 2-column page */
+div.page2col div.field-field-left {
+	float: left;
+	width: 45%;
+}
+div.page2col div.field-field-right {
+	float: left;
+	width: 45%;
+}
+
+/*.form-item #edit-submitted-proposal-budget-budget-item1
+#webform-component-proposal_budget .form-item 
+{
+ 
+  width: 115px; 
+}
+#webform-component-proposal_budget .webform-component-textfield
+{
+	width:200px;
+}
+#edit-submitted-proposal-budget-budget-item1-wrapper
+{
+width:200px;
+
+}
+#edit-submitted-proposal-budget-budget-item1
+{float left;
+
+width:200px;	
+} */

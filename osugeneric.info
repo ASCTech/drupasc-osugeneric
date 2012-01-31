@@ -1,0 +1,15 @@
+name = osugeneric
+description = OSU Gemeric Site Theme.
+core = 6.x
+engine = phptemplate
+
+stylesheets[all][] = styles/osu-navbar-media/css/navbar.css
+stylesheets[screen, projection][] = styles/blueprint/screen.css
+stylesheets[screen][] = styles/default.css
+
+regions[before_content] = before content
+regions[right] = right
+regions[MainNav] = main navigation
+regions[drupalnav] = drupal navigation
+regions[footer] = footer
+
