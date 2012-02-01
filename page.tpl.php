@@ -20,7 +20,7 @@
 			<div><?php print $drupalnav ?></div><br/ style="clear:both">
 	 	 <?php } ?>
 
-		<?php require_once("/sites/all/themes/osugeneric/navbar/osu-navbar-b.html"); ?>
+		<?php require_once("navbar/osu-navbar-b.html"); ?>
 
 		<div id="header" class="span-23 prepend-1">
 			<div class="logo">
@@ -79,7 +79,7 @@
 						</ul>
 					<?php } ?>
 			    		<?php print $footer_message; ?>
-					<?php include("sites/all/files/icons/uicons.php"); ?>
+					<?php include("icons/uicons.php"); ?>
 				</div><!-- .contact -->		
 			</div><!-- .footer -->
 		</div><!-- #footer -->	
