@@ -20,7 +20,7 @@
 			<div><?php print $drupalnav ?></div><br/ style="clear:both">
 	 	 <?php } ?>
 
-		<?php require_once("./navbar/osu-navbar-b.html"); ?>
+		<?php require_once("/sites/all/themes/osugeneric/navbar/osu-navbar-b.html"); ?>
 
 		<div id="header" class="span-23 prepend-1">
 			<div class="logo">
