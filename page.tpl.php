@@ -66,7 +66,7 @@
 
 		<div id="footer">
 			<div class="footer span-9 prepend-1 first">
-					<img alt="OSU Logo" title="The Ohio State University" src="/sites/all/themes/osugeneric/images/logo.gif" />
+      <img alt="OSU Logo" title="The Ohio State University" src="<?php print base_path() . path_to_theme(); ?>/images/logo.gif" />
 			</div>
 			<div class="footer span-13 append-1 last">
 				<div class="contact">
