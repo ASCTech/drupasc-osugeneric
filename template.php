@@ -2,7 +2,7 @@
 
 function phptemplate_preprocess_node(&$vars) {
   $node = $vars['node'];
-  if (count($node->taxonomy)) {
+  if (isset($node->taxonomy) && count($node->taxonomy)) {
     $vars['terms'] = t('Tags: !tags', array('!tags' => $vars['terms']));
   }
   if (theme_get_setting('toggle_node_info_'. $node->type)) {
